@@ -1,4 +1,4 @@
-package dds_utils
+package ddsutils
 
 import "sync"
 
