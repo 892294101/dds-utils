@@ -1,4 +1,5 @@
 module github.com/892294101/dds-utils
+replace ./dds-utils => ./ddsutils
 
 go 1.19
 
