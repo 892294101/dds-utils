@@ -651,7 +651,7 @@ func ParseNLSLANG(p string) (language, territory, charset string, err error) {
 		r := strings.Split(res[0], "_")
 		if len(r) == 2 {
 			language = r[0]
-			language = r[1]
+			territory = r[1]
 			charset = res[1]
 		} else {
 			return "", "", "", errors.Errorf("NLS_LANG Incorrect format: %v", p)
